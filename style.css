@@ -1,0 +1,11 @@
+body{margin:0;background:#0f1530}
+a{color:#f5c518}a:hover{color:#ffde5c}
+.hero{background:linear-gradient(180deg,rgba(15,21,48,.30) 0%,rgba(15,21,48,.55) 55%,#0f1530 100%),url(assets/hero-hintergrund.jpg) center 55%/cover no-repeat}
+.hero.top{background:linear-gradient(90deg,rgba(15,21,48,.62) 0%,rgba(15,21,48,.25) 50%,rgba(15,21,48,0) 75%),linear-gradient(180deg,rgba(15,21,48,.15) 0%,rgba(15,21,48,0) 45%,rgba(15,21,48,.35) 78%,#0f1530 100%),url(assets/hero-hintergrund.jpg) 35% 74%/cover no-repeat}
+.nacht{background:linear-gradient(180deg,#0f1530 0%,rgba(15,21,48,.80) 25%,rgba(15,21,48,.86) 75%,#0f1530 100%),url(assets/nacht-hintergrund.jpg) center 30%/cover no-repeat}
+.sonne{animation:sinken 9s ease-in-out infinite alternate}
+@keyframes sinken{from{transform:translateY(-30px)}to{transform:translateY(70px)}}
+@media (prefers-reduced-motion:reduce){.sonne{animation:none}}
+input[type=time]{color-scheme:dark}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #f5c518;outline-offset:3px}
+html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
